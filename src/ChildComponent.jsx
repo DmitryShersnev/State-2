@@ -1,10 +1,8 @@
 function ChildComponent({ name, counter }) {
   return (
-    <>
-      <p>
-        Привет, {name}. Текущее значение счётчика: {counter}
-      </p>
-    </>
+    <p>
+      Привет, {name}. Текущее значение счётчика: {counter}
+    </p>
   );
 }
 

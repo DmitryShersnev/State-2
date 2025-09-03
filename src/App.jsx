@@ -2,11 +2,7 @@ import "./App.css";
 import ParentComponent from "./ParentComponent";
 
 function App() {
-  return (
-    <>
-      <ParentComponent />
-    </>
-  );
+  return <ParentComponent />;
 }
 
 export default App;
