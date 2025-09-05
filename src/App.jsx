@@ -1,8 +1,16 @@
 import "./App.css";
-import ParentComponent from "./ParentComponent";
+import UserProfile from "./UserProfile";
+import TasksList from "./TasksList";
+import ShoppingCart from "./ShoppingCart";
 
 function App() {
-  return <ParentComponent />;
+  return (
+    <>
+      <UserProfile />
+      <TasksList />
+      <ShoppingCart />
+    </>
+  );
 }
 
 export default App;
